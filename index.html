@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delivery Manifest</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--Font awesome CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--JS script-->
+    <script src="../pharmacy/script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <br><br>
+        <div class="row">
+            <div class="col-md-1">
+                <button type="button" class="btn btn-dark">Print</button>
+            </div>
+            <br><br>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+              <div class="jumbotron">
+                <h1 class="display-4"><br><br><br>
+                </h1> 
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">First</label>
+                        <input type="first" class="form-control" id="inputFirst4">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Last</label>
+                        <input type="last" class="form-control" id="inputLast4">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputAddress">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputAddress2">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+
+                      <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                            <option value="FL">Florida</option>
+                      
+                        </select>
+                      </div>
+
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+
+                    </div>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Phone</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="(407)-000-0000">
+                    </div>
+                    <hr>
+                    <hr>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Rx Numbers</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                        rows="5" placeholder="Enter Rx Numbers"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Notes</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
