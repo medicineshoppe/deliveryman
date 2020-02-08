@@ -1,4 +1,4 @@
-![screenshot](creenshot.png)
+![screenshot](screenshot.png)
 
 # deliverymanifest
 A delivery form for deliveries for ease of use
