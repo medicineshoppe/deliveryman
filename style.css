@@ -1,5 +1,5 @@
 .display-4 {
-  background-image: url(../deliveryman/medlogo.png);
+  background-image: url(deliveryman/medlogo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 60% 80%;
@@ -48,4 +48,12 @@ body {
     left: 0;
     top: 0;
   }
+}
+
+
+@media only screen 
+  and (max-width: 480px) {
+    #header {
+    background-position: right center;
+}
 }
